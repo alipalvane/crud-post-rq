@@ -1,9 +1,9 @@
 import { useState } from "react";
 
-const PostFrom = ({onSubmitProp}) => {
+const PostFrom = ({ onSubmitProp, initialValue }) => {
   const [post, setPost] = useState({
-    title: "",
-    body: "",
+    title: initialValue.title || "",
+    body: initialValue.body || "",
   });
   const handleChangeInput = (e) => {
     setPost({
@@ -24,7 +24,7 @@ const PostFrom = ({onSubmitProp}) => {
   );
   const handleSubmit = (e) => {
     e.preventDefault();
-    onSubmitProp(post)
+    onSubmitProp(post);
     setPost({
       title: "",
       body: "",

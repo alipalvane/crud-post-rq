@@ -15,7 +15,17 @@ export async function createPost(newPost){
             "Content-Type":"application/json"
         },
         body:JSON.stringify(newPost)
+    })
+    return response.json()
+}
 
+export async function updatePost(updatedPost){
+    const response = await fetch(`http://localhost:3000/posts/${updatedPost.id}`,{
+        method:"PUT",
+        headers:{
+            "Content-Type":"application/json"
+        },
+        body:JSON.stringify(updatedPost)
     })
     return response.json()
 }

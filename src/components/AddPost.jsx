@@ -22,7 +22,7 @@ const AddPost = () => {
   return (
     <div>
       <h2>Add New Post</h2>
-      <PostFrom onSubmitProp={handleAddPost}/>
+      <PostFrom onSubmitProp={handleAddPost} initialValue={{}}/>
     </div>
   );
 };
