@@ -1,0 +1,24 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "this is title 1",
+      "body": "this is body 1"
+    },
+    {
+      "id": 2,
+      "title": "this is title 2",
+      "body": "this is body 2"
+    },
+    {
+      "id": "58b26894-a8ce-4cdd-968e-28bd7d5eca40",
+      "title": "test thre",
+      "body": "body three"
+    },
+    {
+      "id": "702c8a8b-8db1-488c-afe3-2e705abbf913",
+      "title": "title fouhr",
+      "body": "body for four"
+    }
+  ]
+}
