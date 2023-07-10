@@ -1,29 +1,9 @@
 {
   "posts": [
     {
-      "id": 1,
-      "title": "this is title 1 updated",
-      "body": "this is body 1"
-    },
-    {
-      "id": 2,
-      "title": "this is title 2",
-      "body": "this is body 2"
-    },
-    {
-      "id": "58b26894-a8ce-4cdd-968e-28bd7d5eca40",
-      "title": "test thre",
-      "body": "body three"
-    },
-    {
-      "id": "702c8a8b-8db1-488c-afe3-2e705abbf913",
-      "title": "title fouhr",
-      "body": "body for four"
-    },
-    {
-      "id": "86d9c34c-9c9e-4d80-a22c-2262b0538c67",
-      "title": "kl;k",
-      "body": "kl;k;lkl;k"
+      "id": "25bb8a91-fa32-45f0-bc11-68ddac8375a8",
+      "title": "hkjhjkhjkh",
+      "body": "hkjhkj"
     }
   ]
 }
